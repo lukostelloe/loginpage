@@ -1,5 +1,5 @@
 body {
-  background: #1690a7;
+  background: #73e2f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,4 +86,8 @@ h1 {
 
 .ca:hover {
   text-decoration: underline;
+}
+
+small {
+  color: black;
 }

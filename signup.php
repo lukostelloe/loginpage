@@ -3,6 +3,7 @@
 <head>
   <title>SIGN UP</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <form action="signup-check.php" method="post">
@@ -44,13 +45,23 @@
    
 
     <label>Password</label>
-    <input type="password" 
+    <input id="pass"
+           type="password" 
            name="password" 
+           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
            placeholder="Password"><br>
+           <small>password must have a lowercase</small><br>
+           <small>password must have an uppercase</small><br>
+           <small>password must have a number</small><br>
+           <small>password must have at least 8 characters</small><br>
+           <br>
+           <br>
 
     <label>Re Password</label>
     <input type="password" 
-           name="re_password" placeholder="Re_Password"><br>
+           name="re_password"
+           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+           placeholder="Re_Password"><br>
 
     <button type="submit">Sign Up</button>
     <a href="index.php" class="ca">Already have an account?</a>

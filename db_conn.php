@@ -1,10 +1,10 @@
 <?php
 
 $sname = "localhost";
-$uname = "id17446269_loginpage";
-$password = "?JJKqXevx5QqanHr";
+$uname = "root";
+$password = "";
 
-$db_name = "id17446269_login";
+$db_name = "test_db";
 
 $conn = mysqli_connect($sname, $uname, $password, $db_name);
 

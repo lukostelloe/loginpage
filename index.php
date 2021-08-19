@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Welcome to the site!</h1>
   <form action="login.php" method="post">
     <h2>LOGIN</h2>
     <?php if (isset($_GET["error"])) { ?>
@@ -20,7 +21,7 @@
     <input type="password" name="password" placeholder="Password"><br>
 
     <button type="submit">Login</button>
-    <a href="signup.php" class="ca">Create an account</a>
+    <a href="signup.php" class="ca">Don't have an account? Sign up</a>
   </form>
   
 </body>
