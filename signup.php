@@ -50,10 +50,11 @@
            name="password" 
            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
            placeholder="Password"><br>
-           <small>password must have a lowercase</small><br>
-           <small>password must have an uppercase</small><br>
-           <small>password must have a number</small><br>
-           <small>password must have at least 8 characters</small><br>
+           <small>password must have...</small><br>
+           <small>a lowercase and uppercase letter</small><br>
+           <small>a number</small><br>
+           <small>a special character</small><br>
+           <small>at least 8 characters</small><br>
            <br>
            <br>
 
