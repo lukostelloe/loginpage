@@ -91,3 +91,8 @@ h1 {
 small {
   color: black;
 }
+
+.valid {
+  color: green;
+  font-style: italic;
+}

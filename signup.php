@@ -3,7 +3,7 @@
 <head>
   <title>SIGN UP</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
   <form action="signup-check.php" method="post">
@@ -51,10 +51,10 @@
            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
            placeholder="Password"><br>
            <small>password must have...</small><br>
-           <small>a lowercase and uppercase letter</small><br>
-           <small>a number</small><br>
-           <small>a special character</small><br>
-           <small>at least 8 characters</small><br>
+           <small id="lowercase" class="small">a lowercase letter</small><br>
+           <small id="uppercase" class="small">an uppercase letter</small><br>
+           <small id="special" class="small">a special character and a number</small><br>
+           <small id="minimum8" class="small">at least 8 characters</small><br>
            <br>
            <br>
 
