@@ -50,7 +50,7 @@
            name="password" 
            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
            placeholder="Password"><br>
-           <small>password must have...</small><br>
+           <small id="rules">password must have...</small><br>
            <small id="lowercase" class="small">a lowercase letter</small><br>
            <small id="uppercase" class="small">an uppercase letter</small><br>
            <small id="special" class="small">a special character and a number</small><br>
@@ -58,11 +58,11 @@
            <br>
            <br>
 
-    <label>Re Password</label>
+    <label>Confirm Password</label>
     <input type="password" 
            name="re_password"
            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
-           placeholder="Re_Password"><br>
+           placeholder="Confirm Password"><br>
 
     <button type="submit">Sign Up</button>
     <a href="index.php" class="ca">Already have an account?</a>
